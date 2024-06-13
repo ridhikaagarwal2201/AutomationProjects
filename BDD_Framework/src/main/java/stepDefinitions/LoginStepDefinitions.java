@@ -81,6 +81,7 @@ public class LoginStepDefinitions{
 	 @Then("^Close the browser$")
 	 public void close_the_browser(){
 		 System.out.println("test");
+		 System.out.println("git");
 		 driver.quit();
 	 }
 	
