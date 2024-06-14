@@ -12,7 +12,7 @@ Feature: login test
 
 Scenario Outline:
 Given the user is on login page for amazon website
-When the user enters "<username>" and "<username>"
+When the user enters "<username>" and "<pwd>"
 Then the user clicks on Login button
 
 Examples:
@@ -22,8 +22,8 @@ Examples:
 
 
 // Using DataTable object
-
+Scenario:
 Given the user is on login page for amazon website
-When the user enters username and username
+When the user enters username and pwd
 |ridhika|test123|
 Then the user clicks on Login button
